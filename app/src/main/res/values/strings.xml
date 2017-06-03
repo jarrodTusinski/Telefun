@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Telefun</string>
+    <string-array name="phoneNames">
+        <item>Samsung Galaxy S4 4G</item>
+        <item>LG Spirit</item>
+        <item>Sony Xperia C3</item>
+    </string-array>
+    <string-array name="phoneSpecs">
+        <item>
+            Procesor: 2300MHz\n
+            RAM: 2GB\n
+            Pamięć wbudowana: 32GB
+        </item>
+        <item>
+            Procesor: 1200MHz\n
+            RAM: 1GB\n
+            Pamięć wbudowana: 8GB
+        </item>
+        <item>
+            Procesor: 1200MHz\n
+            RAM: 1GB\n
+            Pamięć wbudowana: 8GB
+        </item>
+    </string-array>
+    <string name = "stopSound" >Zatrzymaj dzwiek</string>
+    <string name = "soundList" >Lista dzwiekow</string>
+    <string name = "back" >Powrot</string>
+    <string name = "lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit.\n
+        Quisque finibus urna elit, eu consequat sem lacinia quis.</string>
+    <string name = "start">Start</string>
+    <string name = "stop">Zatrzymaj</string>
+    <string name = "play">Odtworz</string>
+</resources>

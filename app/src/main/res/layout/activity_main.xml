@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    >
+
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Wyjscie"
+        android:id="@+id/btnNewAlertDialogButton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+    </Button>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="stopSound"
+        android:id="@+id/btnStopSound"
+        android:onClick="stopSound"
+        android:layout_below="@+id/btnAlertDialogSoundList"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </Button>
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phoneNames"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btnStopSound"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nagrywaj dzwiek"
+        android:id="@+id/audioRecorder"
+        android:layout_below="@+id/btnNewAlertDialogButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="soundList"
+        android:id="@+id/btnAlertDialogSoundList"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </Button>
+</RelativeLayout>
